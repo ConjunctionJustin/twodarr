@@ -1,5 +1,4 @@
 from distutils.core import setup
-from turtle import down
 
 setup(
     name='twodarr',
