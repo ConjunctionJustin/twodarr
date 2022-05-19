@@ -2,6 +2,7 @@ from distutils.core import setup
 
 setup(
     name='twodarr',
+    packages=['twodarr'],
     version='0.1',
     py_modules=['check_bound','all_adj','some_adj'],
     license='MIT',
