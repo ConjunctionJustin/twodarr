@@ -4,7 +4,6 @@ setup(
     name='twodarr',
     packages=['twodarr'],
     version='0.1',
-    py_modules=['check_bound','all_adj','some_adj'],
     license='MIT',
     author='Justin Riegerix',
     author_email='1305jjr@gmail.com',
