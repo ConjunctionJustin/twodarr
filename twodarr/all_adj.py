@@ -1,4 +1,4 @@
-from check_bound import check_bound
+from twodarr.check_bound import check_bound
 
 def all_adj(arr:list, y:int, x:int, default = '\0'):
     '''returns all 8 surrounding squares as dicts of {x,y,val}\n

@@ -1,4 +1,4 @@
-from check_bound import check_bound
+from twodarr.check_bound import check_bound
 
 def some_adj(arr:list, y:int, x:int, default = '\0'):
     '''returns the 4 immediate squares as dicts of {x,y,val}\n
