@@ -10,7 +10,7 @@ def some_adj(arr:list, y:int, x:int, default = '\0'):
             {'x':x, 'y':y+1},]
     for spot in coords:
         if (check_bound(arr, spot['y'], spot['x'])):
-            adj.append({'x':spot['x'], 'y':y+spot['y'], 'val':arr[spot['y']][spot['x']]})
+            adj.append({'x':spot['x'], 'y':spot['y'], 'val':arr[spot['y']][spot['x']]})
         elif (default != '\0'):
             adj.append({'x':spot['x'], 'y':spot['y'], 'val':default})
     return adj
